@@ -15,7 +15,7 @@ This code takes various examples from the DailyJS node tutorial series, the ever
 
 ## Install Notes
 
-You may require some dependencies depending on your setup. Express should warn you about what is missing. This is more copy/paste for your situation than a true boilerplate.
+You may require some dependencies depending on your setup. Node should warn you about what is missing. This is more copy/paste for your situation than a true boilerplate.
 
 ## Mongoose-Auth
 
@@ -23,7 +23,7 @@ You will need to drop the [Mongoose-Auth Google Module](https://github.com/brand
 
 ## Credits
 
-This code takes various examples from the [DailyJS node tutorial series](http://dailyjs.com/tags.html#lmawa), the [everyauth](https://github.com/bnoguchi/everyauth) & [mongoose-auth](https://github.com/bnoguchi/mongoose-auth) github pages and pieces it all together for a fully working login system with persistence.
+This code takes various examples from the [DailyJS node tutorial series](http://dailyjs.com/tags.html#lmawa), the [everyauth](https://github.com/bnoguchi/everyauth) & [mongoose-auth](https://github.com/bnoguchi/mongoose-auth) github pages and pieces it all together for a fully working login system with app-restart persistence.
 
 ## MIT License
 
