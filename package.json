@@ -1,0 +1,19 @@
+{
+    "name": "Node Social Auth Boilerplate"
+  , "description": "Complete example of Facebook & Google authorization with persistence and connect-mongodb integration"
+  , "version": "0.0.1"
+  , "homepage": "http://curationsoft.com"
+  , "author": "Brandon Hall (netsmartpublishing@gmail.com)"
+  , "private": true
+  , "engines": {
+      "node": ">= 0.4.0"
+  }
+  , "dependencies": {
+      "express": "2.5.1"
+    , "connect": "1.8.1"
+    , "stylus": ">= 0.0.1"
+    , "jade": ">= 0.0.1"
+    , "mongoose": "2.3.12"
+    , "mongoose-auth": "0.0.11"
+  }
+}

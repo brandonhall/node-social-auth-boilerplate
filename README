@@ -1,0 +1,6 @@
+Fully working social authorization example in Node with Express that includes persistence, Mongoose and connect-mongodb.
+
+This code takes various examples from the DailyJS node tutorial series, the everyauth & mongoose-auth github pages and pieces it all together for a fully working login system.
+
+You should be able to install all modules as is EXCEPT for the mongoose-auth google library. That is custom and you will need to drop it into your mongoose-auth install.
+This file was modified by JetBrains PhpStorm 3.0 for binding GitHub repository
