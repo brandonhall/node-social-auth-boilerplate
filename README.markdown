@@ -1,6 +1,6 @@
 # Node-Social-Auth-Boilerplate
 
-Fully working social authorization example in Node with Express that includes persistence, Mongoose and connect-mongodb.
+Fully working social authorization example in Node with Express.
 
 ## Features
 
