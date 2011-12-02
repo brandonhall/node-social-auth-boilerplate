@@ -25,6 +25,11 @@ You will need to drop the [Mongoose-Auth Google Module](https://github.com/brand
 
 This code takes various examples from the [DailyJS node tutorial series](http://dailyjs.com/tags.html#lmawa), the [everyauth](https://github.com/bnoguchi/everyauth) & [mongoose-auth](https://github.com/bnoguchi/mongoose-auth) github pages and pieces it all together for a fully working login system with app-restart persistence.
 
+## Recommendations
+
+* WebStorm/PHPStorm with Node Module (commercial)
+* Nodemon & NodeInspector (open-source)
+
 ## MIT License
 
 Copyright (c) 2011 by Brandon Hall
