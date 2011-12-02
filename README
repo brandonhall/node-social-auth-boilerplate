@@ -3,6 +3,8 @@ Node-Social-Auth-Boilerplate
 
 Fully working social authorization example in Node with Express that includes persistence, Mongoose and connect-mongodb.
 
+Also, role setting in the default setup.
+
 This code takes various examples from the DailyJS node tutorial series, the everyauth & mongoose-auth github pages and pieces it all together for a fully working login system.
 
-You should be able to install all modules as is EXCEPT for the mongoose-auth google library. That is custom and you will need to drop it into your mongoose-auth install.
+You should be able to install all modules as is EXCEPT for mongoose-auth. You will need to manually add the Google library in mongoose-auth.
