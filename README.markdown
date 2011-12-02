@@ -11,8 +11,6 @@ Fully working social authorization example in Node with Express.
 * Google OAuth 2.0 aka Google+ Integration
 * Pass `req.user` to the Jade file via ExpressHelpers
 
-This code takes various examples from the DailyJS node tutorial series, the everyauth & mongoose-auth github pages and pieces it all together for a fully working login system.
-
 ## Install Notes
 
 You may require some dependencies depending on your setup. Node should warn you about what is missing. This is more copy/paste for your situation than a true boilerplate.
