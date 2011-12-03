@@ -1,6 +1,9 @@
 h1 #{title}
-    p #{user.id}
-    h3 User Data
-    p= JSON.stringify(user)
+   h3 Facebook User Data
+   p= JSON.stringify(fbUser)
+   h3 Facebook User Data
+   p= JSON.stringify(googleUser)
+   h3 Are we authenticated with both?
+   p= JSON.stringify(bothUser)
   h3
     a(href='/bye') Logout

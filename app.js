@@ -279,8 +279,26 @@ app.get('/new', function (req, res) {
 });
 
 app.dynamicHelpers({
-    user:function (req, res) {
-        return req.currentUser;
+    fbUser:function (req, res) {
+        if (req.currentUser) {
+            if (req.currentUser.fb.id) {
+                return req.currentUser;
+            }
+        }
+    },
+    googleUser:function (req, res) {
+        if (req.currentUser) {
+            if (req.currentUser.google.email) {
+                return req.currentUser;
+            }
+        }
+    },
+    bothUser:function (req, res) {
+        if (req.currentUser) {
+            if (req.currentUser.google.email && req.currentUser.fb.id) {
+                return req.currentUser;
+            }
+        }
     }
 });
 
