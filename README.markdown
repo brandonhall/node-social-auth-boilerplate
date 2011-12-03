@@ -9,7 +9,7 @@ Fully working social authorization example in Node with Express.
 * Amend user Mongo document instead of new document
 * Persistence on server restart via connect-mongodb
 * Google OAuth 2.0 aka Google+ Integration
-* Pass `req.user` to the Jade file via ExpressHelpers
+* Passes auth specific helpers `fbUser`, `googleUser`, `bothUser` to the Jade file via ExpressHelpers
 
 ## Install Notes
 
