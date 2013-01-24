@@ -1,3 +1,5 @@
+**NOTE** At this point, there are much better solutions for authorization in Node.js and this project is abandoned.
+
 # Node-Social-Auth-Boilerplate
 
 Fully working social authorization example in Node with Express.
