@@ -9,7 +9,7 @@
       "node": ">= 0.4.0"
   }
   , "dependencies": {
-      "express": "2.5.1"
+      "express": "4.17.1"
     , "connect": "1.8.1"
     , "stylus": ">= 0.0.1"
     , "jade": ">= 0.0.1"
