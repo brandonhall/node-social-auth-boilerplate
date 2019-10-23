@@ -13,7 +13,7 @@
     , "connect": "1.8.1"
     , "stylus": ">= 0.0.1"
     , "jade": ">= 0.0.1"
-    , "mongoose": "2.3.12"
+    , "mongoose": "5.7.6"
     , "mongoose-auth": "0.0.11"
   }
 }
